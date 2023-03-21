@@ -1,0 +1,140 @@
+
+body {
+    background-color: #9c6262;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 2px;
+    padding: 2px;
+}
+
+p {
+    margin: 1px;
+    padding: 1px;
+}
+
+.container {
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.brand-section {
+    background-color: #0d1033;
+    padding: 5px 40px;
+}
+
+.logo {
+    width: 50%;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-6 {
+    width: 40%;
+    flex: 2 2 auto;
+}
+
+.text-white {
+    color: #fff;
+}
+
+.company-details {
+    float: right;
+    text-align: right;
+}
+
+.body-section {
+    padding: 10px;
+    border: 1px solid rgb(207, 205, 205);
+}
+
+.heading {
+    font-size: 20px;
+    margin-bottom: 08px;
+}
+
+.sub-heading {
+    color: #262626;
+    margin-bottom: 0px;
+}
+
+table {
+    background-color: #fff;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table thead tr {
+    border: 1px solid #111;
+    background-color: #f2f2f2;
+}
+
+table td {
+    font-size: 15px;
+    vertical-align: middle !important;
+    text-align: center;
+}
+
+table th,
+table td {
+    padding-top: 05px;
+    padding-bottom: 05px;
+}
+
+.table-bordered {
+    box-shadow: 0px 0px 5px 0.5px gray;
+}
+
+.table-bordered td,
+.table-bordered th {
+    border: 1px solid #dee2e6;
+}
+
+.text-right {
+    text-align: end;
+}
+
+.w-20 {
+    width: 20%;
+}
+
+.float-right {
+    float: right;
+}
+
+.client-font-style {
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.invoice-header {
+    text-align: center;
+}
+
+.client-info {
+    padding: 4px;
+    white-space: nowrap;
+    text-align: left;
+    background-color: #F6F6F6;
+}
+
+.invoice-info {
+    width: 100%;
+    border-bottom: 1px;
+    text-align: right;
+    background-color: #F6F6F6;
+
+}
